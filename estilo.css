@@ -1,0 +1,81 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-image: url(fundo.png);
+    background-size: 50%; 
+}
+
+#container{
+    width: 500px;
+    height: 680px;
+    background-color: #ecb653;
+    margin: 0 auto;
+    margin-top: 10px;   
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 22%;
+}
+
+.title{
+    font-family: 'Concert One', sans-serif;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin-top: -12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input{
+    height: 25px;
+    width: 150px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: white;
+    outline-color: #6eaa5e;
+    border: 2px solid white;
+    text-align: center;
+
+}
+
+input:hover{
+    border-color: #6eaa5e;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    background-color: #5FB404;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-weight: bold;  
+}
+
+button:hover{
+    background-color: #298A08;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+

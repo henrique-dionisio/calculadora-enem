@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Outfit:wght@200&family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <title>Calculadora de médias do ENEM</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <img class="logo" src="calculadora.png">
+            <h1 class="title">CALCULE A SUA MÉDIA DO ENEM &#9997;</h1>
+            <h2 class="subtitle">Veja a sua Nota Final!</h2>
+
+            <div id="notasMaterias">
+                <form>
+                    <div>
+                        <h3>Matemática</h3>
+                        <input type="number" min="1" max="1000" id="notaDeMatematica">
+                    </div>
+
+                    <div>
+                        <h3>Linguagens</h3>
+                        <input type="number" min="1" max="1000" id="notaDeLinguagens">
+                    </div>
+
+                    <div>
+                        <h3>Ciências da Natureza</h3>
+                        <input type="number" min="1" max="1000" id="notaDeCienciasNatureza">
+                    </div>
+
+                    <div>
+                        <h3>Ciências Humanas</h3>
+                        <input type="number" min="1" max="1000" id="notaDeCienciasHumanas">
+                    </div>
+
+                    <div>
+                        <h3>Redação</h3>
+                        <input type="number" min="1" max="1000" id="notaDeRedacao">
+                    </div>
+                </form>
+            </div>
+
+            <div>
+                <button onclick="calcularMedia()" class="button">Calcular</button>
+            </div>
+            
+            <p id="result"></p>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
