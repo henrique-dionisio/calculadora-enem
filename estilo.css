@@ -6,16 +6,16 @@ body{
 
 #container{
     width: 500px;
-    height: 680px;
+    height: 690px;
     background-color: #ecb653;
     margin: 0 auto;
-    margin-top: 10px;   
+    margin-top: 20px;   
     text-align: center;
     border-radius: 10px;
 }
 
 .logo{
-    width: 22%;
+    width: 23%;
 }
 
 .title{
